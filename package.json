@@ -1,0 +1,19 @@
+{
+  "name": "maquinando-bot",
+  "version": "1.0.0",
+  "description": "Bot WhatsApp recordatorios diarios Maquinando SL",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "node-cron": "^3.0.3",
+    "node-fetch": "^2.7.0",
+    "qrcode-terminal": "^0.12.0",
+    "whatsapp-web.js": "^1.23.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
